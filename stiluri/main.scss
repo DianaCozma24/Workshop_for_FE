@@ -1,0 +1,127 @@
+@import "typo";
+@import "colors";
+
+.hero {
+  background-image: url("../Audiophile/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    padding: 30px;
+  }
+
+  hr {
+    background-color: rgb(29, 28, 28);
+  }
+
+  h2 {
+
+    position: absolute;
+    height: 19px;
+    left: 19.82%;
+    right: 19.51%;
+    top: calc(50% - 19px/2 - 135.5px);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+    color: $white;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  h1 {
+    position: absolute;
+    height: 80px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 80px/2 - 70px);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: $white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  }
+
+  p {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 47.93%;
+    bottom: 26.21%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 50px;
+    color: $white;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+
+  .seeProduct {
+    background-color: #D87D4A;
+    border: 1px solid black;
+    height: 48px;
+    width: 160px;
+    // left: 84px;
+    // top: 242px;
+    text-transform: uppercase;
+    color: $white;
+    position: relative;
+    top: 48%;
+    left: 43%;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 30px;
+
+
+  }
+}
+
+.products {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  article {
+    height: 165px;
+    width: 327px;
+    left: 0px;
+    top: 52px;
+    border-radius: 8px;
+    background-color: #F1F1F1;
+    position: relative;
+    img{
+      z-index: 1;
+      top: 0;
+      left: 50%;
+    }
+  }
+}
