@@ -1,0 +1,283 @@
+@import "typo";
+@import "colors";
+
+@media screen and (min-width: 650px) {
+  .hero {
+    width: 768px;
+    height: 336px;
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px;
+
+      a {
+        img {
+          position: relative;
+          align-items: left;
+          left: -200px;
+        }
+      }
+    }
+
+    hr {
+      width: 689px;
+      height: 1px;
+      background: #FFFFFF;
+      mix-blend-mode: normal;
+      opacity: 0.1;
+    }
+
+    h2 {
+      width: 215px;
+      height: 64px;
+      position: relative;
+      top: 97px;
+      left: 277px;
+    }
+  }
+
+  .product-product-listSpeaker {
+    display: flex;
+    flex-direction: column;
+    width: 689px;
+    margin-left: 24px;
+    margin-top: 64px;
+    gap: 120px;
+
+
+  }
+
+  .products {
+    position: absolute;
+    width: 689px;
+    height: 217px;
+    padding-top: 96px;
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 80px;
+      margin-left: 24px;
+
+    }
+
+    .articleList {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: center;
+    }
+
+    img {
+      position: relative;
+      left: 100px;
+      align-items: center;
+      transform: translateY(-60%);
+      z-index: 2;
+      filter: drop-shadow(0px 10px 10px black);
+    }
+
+
+    article {
+      height: 165px;
+      width: 223px;
+      left: 0px;
+      top: 52px;
+      border-radius: 8px;
+      background-color: #F1F1F1;
+      display: flex;
+
+
+
+      h3 {
+        text-transform: uppercase;
+        position: relative;
+        color: $black;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 1.07143px;
+        display: block;
+        top: -10%;
+        left: -15%;
+
+      }
+
+      button {
+        display: block;
+        position: absolute;
+        left: 100px;
+        height: 18px;
+        width: 80px;
+        top: 110px;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        border: none;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $black;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+
+        .arrow {
+          color: $orange;
+          font-size: 18px;
+        }
+
+      }
+
+
+
+    }
+  }
+
+  .bestAudio {
+
+    width: 689px;
+    height: 633px;
+    top: 2400px;
+    left: 24px;
+
+
+    .imgBackground {
+
+      background-image: url("../Audiophile/assets/home/tablet/Bitmap.png");
+      background-size: 689px 300px;
+      border: 1px solid $black;
+      border-radius: 8px;
+      width: 689px;
+      height: 300px;
+
+    }
+
+    .innerContainer {
+      width: 573px;
+      height: 270px;
+      top: 60px;
+      position: absolute;
+      display: flex;
+
+
+
+      h3 {
+        width: 573px;
+        height: 88px;
+        left: 10%;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: 1.429px;
+        text-transform: uppercase;
+        color: $black;
+
+        span {
+          color: $orange;
+        }
+      }
+
+      p {
+        width: 573px;
+        height: 150px;
+        left: 30px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: $black;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+
+
+      }
+    }
+
+
+  }
+
+  footer {
+    top: 3300px;
+
+    a {
+      img {
+        position: relative;
+        align-items: left;
+        left: -250px;
+
+      }
+    }
+
+    .container {
+      background-color: $black;
+      width: 768px;
+      height: 400px;
+
+
+    }
+
+    nav {
+
+      ul {
+
+        list-style: none;
+
+        li {
+          display: inline;
+          justify-content: space-evenly;
+
+          a {
+            text-align: left;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 25px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: $white;
+
+          }
+        }
+
+      }
+    }
+
+    p {
+      width: 689px;
+      height: 75px;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      color: $white;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+      padding-bottom: 40px;
+      text-align: left;
+    }
+
+    .copyRight {
+      position: relative;
+      justify-self: left;
+      left: -15px;
+    }
+
+    .social {
+      position: relative;
+      margin-top: 15px;
+      height: 24px;
+      width: 104px;
+      display: flex;
+      gap: 15px;
+      right: -500px;
+      top: -100px;
+
+
+    }
+  }
+
+}

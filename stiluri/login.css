@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Manrope:wght@700&display=swap");
+h1, h2, p, h3, h4, button {
+  font-style: normal;
+  font-family: "Manrope";
+}
+
+body {
+  background-color: #FAFAFA;
+  color: black;
+  font-family: "Manrope";
+  margin: 0;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+after {
+  clear: both;
+}
+
+.loginDiv {
+  margin: 50px auto;
+  width: 320px;
+}
+
+.loginDiv form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 400px;
+  height: 600px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 1px solid #D87D4A;
+}
+
+.loginDiv form input[type=email] {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #CFCFCF;
+  color: #000;
+  font-size: 14px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 280px;
+  height: 56px;
+}
+
+.emapas {
+  color: #000;
+  font-size: 14px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: -0.214px;
+}
+
+.loginDiv form input[type=password] {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #CFCFCF;
+  color: #000;
+  font-size: 14px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: -0.25px;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 280px;
+  height: 56px;
+}
+
+.loginDiv form input[type=submit] {
+  background: #D87D4A;
+  border: 0;
+  width: 280px;
+  height: 56px;
+  position: relative;
+  left: 15%;
+  border-radius: 3px;
+  color: #FFF;
+  text-align: center;
+  font-size: 13px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.loginDiv form span {
+  background-color: #363b41;
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #434a52;
+  color: #606468;
+  display: block;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+#remember {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#login form input[type=submit]:hover {
+  background: #16aa56;
+}/*# sourceMappingURL=login.css.map */

@@ -3,9 +3,12 @@
 
 <head>
   <title>Proiect Wantsome</title>
-
-  <link rel="stylesheet" href="stiluri/main.css" />
-
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stiluri/main.css" media="screen and (min-width: 250px)"/>
+  <link rel="stylesheet" href="stiluri/indexTablet.css" media="screen and (min-width: 650px)" >
+  <link rel="stylesheet" href="stiluri/indexDesktop.css" media="screen and (min-width: 1100px)" >
+  <script async src="JS/main.js"></script>
 </head>
 
 <body>
@@ -19,48 +22,140 @@
         <a href="/"><img src="Audiophile/audiophile2.svg" alt="audiophile logo" /></a>
 
         <button class="cart">
-          <img src="Audiophile/cart.svg" alt="cart" />
+         <a href="cart.html"><img src="Audiophile/cart.svg" alt="cart" /></a> 
         </button>
+          <p id="cart">0</p>  
+      <button class="signin"><a href="register.html">Register</a></button>
+       <div class="logBtn"></div> 
+      <!-- <button class="login"><a href="login.html">Login</a></button> -->
+        
         <nav>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Headphones</a></li>
-            <li><a href="#">Speakers</a></li>
-            <li><a href="#">Earphones</a></li>
+            <li><a href="headphones.html">Headphones</a></li>
+            <li><a href="speakers.html">Speakers</a></li>
+            <li><a href="earphones.html">Earphones</a></li>
           </ul>
         </nav>
       </header>
-<hr>
+      <hr>
+
       <h2>New product</h2>
       <h1>XX99 Mark II<br>
         Headphones
       </h1>
       <p>Experience natural, lifelike audio and <br>
         exceptional build quality made for the<br>
-         passionate music enthusiast.</p>
+        passionate music enthusiast.</p>
+
+      <button class="seeProduct">See Product</button>
+
     </div>
-    <button class="seeProduct">See Product</button>
   </section>
 
-<section class="products">
-  <div class="container">
-    <div class="articleList">
-      <article>
-        <h3><img src="../Audiophile/assets/image-removebg-preview.png">Headphones</h3>
-       
-      </article>
-      <article>
-        <h3>Speakers</h3>
-      </article>
-      <article>
-        <h3>Earphones</h3>
-      </article>
+  <section class="products">
+    <div class="container">
+      <div class="articleList">
+        <article>
+          <div class="innerContainer">
+          <h3><img src="../Audiophile/assets/image-removebg-preview.png">Headphones<button><a href="headphones.html"><br>Shop&nbsp</a><span class="arrow">
+                ></span> </button></h3>
+              </div>
+        </article>
+        <article>
+          <div class="innerContainer">
+          <h3><img src="../Audiophile/assets/image-speaker.png">Speakers<button><a href="speakers.html"><br>Shop&nbsp</a><span class="arrow"> >
+              </span></button></h3>
+          </div>
+        </article>
+        <article>
+          <div class="innerContainer">
+          <h3><img src="../Audiophile/assets/image-earphones.png">Earphones<button><a href="earphones.html"><br>Shop&nbsp</a><span class="arrow"> ></span></button></h3>
+            </div>
+        </article>
+      </div>
+
+
     </div>
 
+  </section>
 
-  </div>
+  <section class="seeProduct">
+    <div class="container">
+      <article class="speakers">
+        <h3><img src="../Audiophile/assets/home/mobile/image-speaker-zx9.png">ZX9
+          SPEAKER</h3>
+        <p>Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
+        <button>See product</button>
+      </article>
+      
+      <article class="hero">
+        <div class="innerContainer">
+          <h3>ZX7 SPEAKER</h3>
+          <button>See product</button>
+        </div>
+      </article>
+      <article class="earphones">
+        <div class="bkgImg"></div>
+        <div class="prodEarphones">
+          <h3>YX1 EARPHONES <button>See product</button></h3>
+        
+        </div>
+      </article>
 
-</section>
+  </section>
+
+  <section class="bestAudio">
+    <div class="container">
+      <div class="imgBackground"></div>
+      <div class="innerContainer">
+        <h3>Bringing you the <br>
+          best audio gear</h3>
+        <p>Located at the heart of New York City,
+          Audiophile is the premier store for high end
+          headphones, earphones, speakers, and audio
+          accessories. We have a large showroom and
+          luxury demonstration rooms available for you
+          to browse and experience a wide range of our
+          products. Stop by our store to meet some of
+          the fantastic people who make Audiophile
+          the best place to buy your portable
+          audio equipment.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+        <a href="/"><img src="Audiophile/audiophile2.svg" alt="audiophile logo" /></a>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Headphones</a></li>
+            <li><a href="speakers.html">Speakers</a></li>
+            <li><a href="#">Earphones</a></li>
+          </ul>
+        </nav>
+      <p>Audiophile is an all in one stop to fulfill your 
+        audio needs. We're a small team of music 
+        lovers and sound specialists who are devoted 
+        to helping you get the most out of personal 
+        audio. Come and visit our demo facility - we’re 
+        open 7 days a week.</p>
+        <p class="copyRight">
+          @Copyright 2021. All right reserved.
+        </p>
+        <ul class="social">
+          <li><a href="#">
+            <img src="Audiophile/assets/shared/desktop/icon-facebook.svg" alt="facebook">
+          </a></li>
+          <li><a href="#">
+            <img src="Audiophile/assets/shared/desktop/icon-twitter.svg" alt="twiter">
+          </a></li>
+          <li><a href="#">
+            <img src="Audiophile/assets/shared/desktop/icon-instagram.svg" alt="instagram">
+          </a></li>
+        </ul>
+  </footer>
 </body>
 
 </html>

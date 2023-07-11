@@ -1,0 +1,492 @@
+@import "typo";
+@import "colors";
+
+
+@media screen and (min-width:1100px) {
+  .hero {
+    background-image: url("../Audiophile/assets/home/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+    width: 1440px;
+    height: 729px;
+    position: relative;
+    cursor: pointer;
+
+    header {
+      position: relative;
+      padding-top: 20px;
+      padding-bottom: 10px;
+
+      a {
+        img {
+          position: relative;
+          align-items: left;
+          left: 80px;
+        }
+      }
+
+    }
+
+    .hamburger {
+      display: none;
+    }
+
+    nav {
+      display: block;
+
+      ul {
+        display: flex;
+        gap: 35px;
+        list-style: none;
+
+        a {
+          position: relative;
+          text-decoration: none;
+          color: white;
+          cursor: pointer;
+          padding-bottom: 10px;
+          font-family: 'Manrope';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 13px;
+          text-transform: uppercase;
+          right: 600px;
+        }
+      }
+    }
+
+    .cart {
+      img {
+        background-color: transparent;
+        position: relative;
+        align-items: right;
+        left: 700px;
+      }
+    }
+
+    hr {
+      width: 1110px;
+      height: 1px;
+      background-color: rgb(29, 28, 28);
+    }
+
+    h2 {
+      top: 30%;
+      left: 10%;
+      width: 250px;
+      height: 19px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 10px;
+    }
+
+    h1 {
+      top: 35%;
+      left: 10%;
+      width: 396px;
+      height: 116px;
+      font-size: 56px;
+      line-height: 58px;
+    }
+
+    p {
+      top: 55%;
+      left: 10%;
+      width: 349px;
+      height: 75px;
+      text-align: left;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    .seeProduct {
+      background-color: $orange;
+      color: $white;
+      border: 1px solid $orange;
+      width: 160px;
+      height: 48px;
+      left: 10%;
+      top: 80%;
+    }
+  }
+
+  .products {
+    position: absolute;
+    width: 1110px;
+    height: 284px;
+    padding-top: 96px;
+    margin-left: 160px;
+    cursor: pointer;
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 80px;
+      margin-left: 24px;
+
+    }
+
+    .articleList {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: center;
+    }
+
+    img {
+      width: 123px;
+      height: 160px;
+      position: relative;
+      left: 130px;
+      align-items: center;
+      transform: translateY(-40%);
+      z-index: 2;
+      filter: drop-shadow(0px 10px 10px black);
+    }
+
+    article {
+      width: 350px;
+      height: 204px;
+      border-radius: 8px;
+      background-color: #F1F1F1;
+      display: flex;
+
+      h3 {
+        text-transform: uppercase;
+        position: relative;
+        color: $black;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 1.07143px;
+        display: block;
+        top: -20%;
+        left: 5%;
+
+      }
+
+      button {
+        display: block;
+        position: absolute;
+        left: 55%;
+        height: 18px;
+        top: 160px;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        border: none;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $black;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+      }
+    }
+
+  }
+
+  .seeProduct {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 120px;
+
+
+    }
+
+    .speakers {
+      display: block;
+      position: absolute;
+      height: 560px;
+      width: 1110px;
+      left: 165px;
+      top: 1138px;
+      border: 1px solid $orange;
+      border-radius: 8px;
+      background-color: $orange;
+      background-image: url("../Audiophile/assets/home/mobile/pattern-circles.svg");
+      background-position: top -60px left -140px;
+      background-repeat: no-repeat;
+      background-size: 944px 944px;
+
+      img {
+        display: flex;
+        position: absolute;
+        height: 493px;
+        width: 410px;
+        left: -500px;
+        top: -30px;
+
+      }
+
+      h3 {
+        position: relative;
+        height: 116px;
+        width: 261px;
+        align-items: left;
+        left: 666px;
+        top: 20.33%;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 58px;
+        text-align: left;
+        letter-spacing: 1.28571px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 0;
+
+      }
+
+      p {
+        position: relative;
+        width: 349px;
+        height: 75px;
+        left: 666px;
+        top: 100px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: left;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.75;
+      }
+
+      button {
+        position: relative;
+        width: 160px;
+        height: 48px;
+        left: 666px;
+        top: 140px;
+        background-color: #4C4C4C;
+        color: $white;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 10px;
+        justify-content: center;
+      }
+
+
+    }
+
+    .hero {
+      background-image: url("../Audiophile/assets/home/desktop/image-speaker-zx7.jpg");
+      position: absolute;
+      width: 1110px;
+      height: 320px;
+      left: 165px;
+      top: 1780px;
+      border-radius: 8px;
+
+      button {
+        height: 48px;
+        width: 160px;
+        left: 0.61%;
+        right: 34.62%;
+        top: 350px;
+        margin-bottom: 20px;
+        margin-left: 60px;
+        border: 0.5px solid $black;
+        text-transform: uppercase;
+        background-color: $black;
+        color: $white
+      }
+    }
+
+    .earphones {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      position: absolute;
+      width: 1110px;
+      height: 320px;
+      top: 2170px;
+      left: 156px;
+
+      .bkgImg {
+        position: relative;
+        background-image: url("../Audiophile/assets/home/desktop/image-earphones-yx1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 1px solid $black;
+        border-radius: 8px;
+        background-size: 540px 320px;
+        width: 540px;
+        height: 320px;
+
+      }
+
+      .prodEarphones {
+        width: 540px;
+        height: 320px;
+        background-color: #F1F1F1;
+        border-radius: 8px;
+        margin-top: 0;
+
+        h3 {
+
+          padding-left: 60px;
+        }
+
+        button {
+          top: 171px;
+          left: 630px;
+          margin-top: 30px;
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  .bestAudio {
+    width: 1110px;
+    height: 588px;
+    top: 2600px;
+    left: 165px;
+    display: flex;
+
+
+    .imgBackground {
+      position: relative;
+      background-image: url("../Audiophile/assets/home/desktop/Bitmap.png");
+      background-size: 540px 588px;
+      border: 1px solid $black;
+      border-radius: 8px;
+      width: 540px;
+      height: 588px;
+      left: 580px;
+
+    }
+
+    .innerContainer {
+      width: 445px;
+      height: 295px;
+      top: 60px;
+      position: absolute;
+      display: flex;
+
+
+
+      h3 {
+        width: 445px;
+        height: 88px;
+        left: 10%;
+        top: 40%;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: left;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $black;
+      }
+
+      p {
+        width: 445px;
+        height: 175px;
+        left: 10%;
+        top: 80%;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: left;
+        color: $black;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+
+      }
+    }
+  }
+
+  footer {
+    top: 3300px;
+
+    a {
+      img {
+        position: relative;
+        align-items: left;
+        padding-top: 30px;
+        left: -550px;
+
+      }
+    }
+
+    .container {
+      background-color: $black;
+      width: 1440px;
+      height: 365px;
+    }
+
+    nav {
+
+      ul {
+
+        list-style: none;
+
+        li {
+          position: relative;
+          display: inline;
+          justify-content: space-evenly;
+          padding-right: 30px;
+          padding-top: 32px;
+          left: 290px;
+          top: -80px;
+
+          a {
+            text-align: left;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 25px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: $white;
+
+          }
+        }
+      }
+    }
+    p {
+      width: 540px;
+      height: 100px;
+      position: relative;
+      left: -350px;
+      top: -80px;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      color: $white;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+      padding-bottom: 40px;
+      text-align: left;
+
+    }
+    .copyRight{
+      position: relative;
+      justify-self: left;
+      left: -350px;
+  }
+  .social {
+    position: relative;
+    margin-top: 15px;
+    height: 24px;
+    width: 104px;
+    display: flex;
+    gap: 15px;
+    right: -990px;
+   top: -80%;
+
+
+  }
+
+  }
+}

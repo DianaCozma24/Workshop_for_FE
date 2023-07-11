@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Manrope:wght@700&display=swap");
+h1, h2, p, h3, h4, button {
+  font-style: normal;
+  font-family: "Manrope";
+}
+
+@media screen and (min-width: 650px) {
+  .hero {
+    background-image: url("../Audiophile/assets/home/tablet/image-header.jpg");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: center;
+    width: 768px;
+    height: 729px;
+    position: relative;
+  }
+  .hero header {
+    position: relative;
+    padding-top: 40px;
+  }
+  .hero header a img {
+    position: relative;
+    align-items: left;
+    left: -200px;
+  }
+  .hero nav {
+    display: none;
+  }
+  .hero button {
+    background-color: transparent;
+    border: none;
+  }
+  .hero hr {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    height: 1px;
+    width: 689px;
+  }
+  .hero h2 {
+    position: absolute;
+    height: 19px;
+    left: 19.82%;
+    top: 198px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .hero h1 {
+    position: absolute;
+    height: 80px;
+    left: 0%;
+    top: 233px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .hero p {
+    position: absolute;
+    left: 30%;
+    top: 337px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    width: 349px;
+    height: 75px;
+    text-align: center;
+    margin-top: 50px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+  .hero .seeProduct {
+    background-color: #D87D4A;
+    border: 1px solid black;
+    height: 48px;
+    width: 160px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    left: calc(50% - 80px);
+    top: 70%;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 30px;
+  }
+  .products {
+    position: absolute;
+    width: 689px;
+    height: 217px;
+    padding-top: 96px;
+  }
+  .products .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 24px;
+  }
+  .products .articleList {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+  .products img {
+    position: relative;
+    left: 100px;
+    align-items: center;
+    transform: translateY(-60%);
+    z-index: 2;
+    filter: drop-shadow(0px 10px 10px black);
+  }
+  .products article {
+    height: 165px;
+    width: 223px;
+    left: 0px;
+    top: 52px;
+    border-radius: 8px;
+    background-color: #F1F1F1;
+    display: flex;
+  }
+  .products article h3 {
+    text-transform: uppercase;
+    position: relative;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1.07143px;
+    display: block;
+    top: -10%;
+    left: -15%;
+  }
+  .products article button {
+    display: block;
+    position: absolute;
+    left: 100px;
+    height: 18px;
+    width: 80px;
+    top: 110px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    border: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  .products article button .arrow {
+    color: #D87D4A;
+    font-size: 18px;
+  }
+  .seeProduct .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+  }
+  .seeProduct .speakers {
+    display: block;
+    position: absolute;
+    height: 720px;
+    width: 689px;
+    left: 24px;
+    top: 1138px;
+    border: 1px solid #D87D4A;
+    border-radius: 8px;
+    background-color: #D87D4A;
+    background-image: url("../Audiophile/assets/home/mobile/pattern-circles.svg");
+    background-position: bottom 80px left -140px;
+    background-repeat: no-repeat;
+    background-size: 944px 944px;
+  }
+  .seeProduct .speakers img {
+    display: flex;
+    position: relative;
+    height: 237px;
+    width: 197px;
+    left: 50px;
+    bottom: 90px;
+  }
+  .seeProduct .speakers h3 {
+    height: 116px;
+    width: 261px;
+    align-items: center;
+    left: 200px;
+    top: 20.33%;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 0;
+  }
+  .seeProduct .speakers p {
+    position: absolute;
+    left: 7.03%;
+    right: 7.34%;
+    top: 66.33%;
+    bottom: 21.17%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+  .seeProduct .speakers button {
+    display: flex;
+    position: relative;
+    width: 160px;
+    height: 48px;
+    left: 266px;
+    top: 60%;
+    background-color: black;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+  }
+  .seeProduct .hero {
+    background-image: url("../Audiophile/assets/home/tablet/image-speaker-zx7.jpg");
+    position: absolute;
+    width: 689px;
+    height: 320px;
+    left: 24px;
+    top: 1890px;
+  }
+  .seeProduct .hero .innerContainer {
+    text-align: justify;
+    top: 2168px;
+  }
+  .seeProduct .hero .innerContainer h3 {
+    display: left;
+    height: 38px;
+    left: 30%;
+    top: calc(80% - 10px - 30px);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+  }
+  .seeProduct .hero .innerContainer button {
+    height: 48px;
+    width: 160px;
+    left: 0.61%;
+    right: 34.62%;
+    top: 350px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    border: 0.5px solid black;
+    text-transform: uppercase;
+  }
+  .seeProduct .earphones {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    position: absolute;
+    width: 700px;
+    height: 320px;
+    top: 2242px;
+    left: 24px;
+    right: 24px;
+  }
+  .seeProduct .earphones .bkgImg {
+    position: relative;
+    background-image: url("../Audiophile/assets/home/tablet/image-earphones-yx1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-size: 339px 320px;
+    width: 339px;
+    height: 320px;
+  }
+  .seeProduct .earphones .prodEarphones {
+    width: 339px;
+    height: 320px;
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    margin-top: 0;
+  }
+  .seeProduct .earphones .prodEarphones button {
+    top: 171px;
+    left: 380px;
+    margin-top: 30px;
+  }
+  .bestAudio {
+    width: 689px;
+    height: 633px;
+    top: 2658px;
+    left: 24px;
+  }
+  .bestAudio .imgBackground {
+    background-image: url("../Audiophile/assets/home/tablet/Bitmap.png");
+    background-size: 689px 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 689px;
+    height: 300px;
+  }
+  .bestAudio .innerContainer {
+    width: 573px;
+    height: 270px;
+    top: 60px;
+    position: absolute;
+    display: flex;
+  }
+  .bestAudio .innerContainer h3 {
+    width: 573px;
+    height: 88px;
+    left: 10%;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+  }
+  .bestAudio .innerContainer p {
+    width: 573px;
+    height: 150px;
+    left: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  footer {
+    top: 3300px;
+  }
+  footer a img {
+    position: relative;
+    align-items: left;
+    left: -250px;
+  }
+  footer .container {
+    background-color: black;
+    width: 768px;
+    height: 400px;
+  }
+  footer nav ul {
+    list-style: none;
+  }
+  footer nav ul li {
+    position: relative;
+    display: inline;
+    justify-content: space-evenly;
+    padding-right: 30px;
+    padding-top: 32px;
+    left: -120px;
+  }
+  footer nav ul li a {
+    text-align: left;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  footer p {
+    width: 689px;
+    height: 75px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-bottom: 40px;
+    text-align: left;
+  }
+  footer .copyRight {
+    position: relative;
+    justify-self: left;
+    left: -15px;
+  }
+  footer .social {
+    position: relative;
+    margin-top: 15px;
+    height: 24px;
+    width: 104px;
+    display: flex;
+    gap: 15px;
+    right: -500px;
+    top: -100px;
+  }
+}/*# sourceMappingURL=indexTablet.css.map */

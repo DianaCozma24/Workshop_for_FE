@@ -1,0 +1,319 @@
+@import "typo";
+@import "colors";
+
+.hero {
+  background-color: $black;
+  background-position: center;
+  background-size: cover;
+  width: 375px;
+  height: 192px;
+  position: relative;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+  }
+  p{
+    top: 10px;
+    left: 80%;
+    font-size: 10px;
+    color: $white;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: $white;
+  }
+}
+
+.product-listHeadphones{
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  margin-left: 24px;
+  margin-top: 64px;
+  gap: 120px;
+
+  .card {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      width: 327px;
+      height: 352px;
+      border-radius: 8px;
+    }
+
+    h3 {
+      width: 327px;
+      height: 76px;
+      left: 120px;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 38px;
+      text-transform: uppercase;
+      text-align: center;
+      color: $black;
+    }
+
+    p {
+      width: 327px;
+      height: 125px;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+    }
+
+    .seeProduct {
+      width: 160px;
+      height: 48px;
+      background-color: $orange;
+      color: $white;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 18px;
+      text-transform: uppercase;
+      border: 1px solid $orange;
+      margin-top: 24px;
+      position: relative;
+      left: 25.38%;
+    }
+  }
+}
+.products {
+  position: absolute;
+  top: 2702px;
+  padding-top: 120px;
+  padding-bottom: 40px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 24px;
+
+  }
+
+  .articleList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+  }
+
+  img {
+
+    position: relative;
+    left: 124px;
+    transform: translateY(-60%);
+    z-index: 2;
+    filter: drop-shadow(0px 10px 10px black);
+  }
+
+  article {
+    height: 165px;
+    width: 327px;
+    left: 0px;
+    top: 52px;
+    border-radius: 8px;
+    background-color: #F1F1F1;
+    display: flex;
+
+    // .innerContainer {
+    //   display: flex;
+    //   flex-direction: column;
+    //   align-items: center;
+    //   gap: 15px;
+
+      h3 {
+        text-transform: uppercase;
+        color: $black;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 1.07143px;
+        left: 133px;
+
+      }
+
+      button {
+
+        height: 18px;
+        left: 135px;
+        top: 177px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        border: none;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $black;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+
+      }
+
+      .arrow {
+        color: $orange;
+        font-size: 18px;
+      }
+    // }
+  }
+
+}
+
+.bestAudio {
+  display: block;
+  position: absolute;
+  top: 3600px;
+  left: 24px;
+
+
+  .imgBackground {
+
+    background-image: url("../Audiophile/assets/men.png");
+    display: flex;
+    border: 1px solid $black;
+    border-radius: 8px;
+    width: 327px;
+    height: 300px;
+  }
+
+  .innerContainer {
+    display: flex;
+
+    top: 3925px;
+
+    h3 {
+      position: absolute;
+      height: 76px;
+      left: 0%;
+      right: 0%;
+      top: calc(100% - 76px/2 + 29px);
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 38px;
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $black;
+    }
+
+    p {
+      position: absolute;
+      left: 0%;
+      right: 0%;
+      top: calc(100% + 110px/2 + 29px);
+      bottom: 0%;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: $black;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+      margin-top: 30px;
+    }
+  }
+
+
+}
+
+footer {
+  position: absolute;
+  top: 4323px;
+
+
+  .container {
+    background-color: $black;
+    width: 375px;
+    height: 654px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 52px;
+
+  }
+
+  nav {
+    ul {
+      flex-direction: column;
+      list-style: none;
+      padding-top: 48px;
+      display: inline-block;
+      left: 134px;
+      align-items: center;
+
+
+      li {
+        text-align: center;
+
+
+        a {
+          text-align: center;
+          justify-content: center;
+          font-family: 'Manrope';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 25px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          color: $white;
+
+        }
+      }
+    }
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: $white;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
+  .social {
+    margin-top: 15px;
+    width: 150px;
+    display: flex;
+    gap: 15px;
+
+
+  }
+
+}

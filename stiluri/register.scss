@@ -1,0 +1,141 @@
+@import "typo";
+@import "colors";
+
+body {
+  background-color: #FAFAFA;
+  color: $black;
+  font-family: 'Manrope';
+  margin: 0;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+h1 {
+  color: $black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+after {
+  clear: both;
+}
+
+.login {
+  margin: 50px auto;
+  width: 320px;
+}
+
+
+.login {
+  form {
+    margin: auto;
+    padding: 22px 22px 22px 22px;
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+    background: $white;
+    border: 1px solid $orange;
+  }
+}
+
+// .login {
+//   form {
+//     span {
+//       background-color: $orange;
+//       border-radius: 3px 0px 0px 3px;
+//       border-right: 3px solid #434a52;
+//       color: #606468;
+//       display: block;
+//       float: left;
+//       line-height: 50px;
+//       text-align: center;
+//       width: 50px;
+//       height: 50px;
+//     }
+//   }
+// }
+
+.login {
+  form {
+    input[type="email"] {
+      background-color: $white;
+      border-radius: 8px;
+      border: 1px solid #CFCFCF;
+      color: #000;
+      font-size: 14px;
+      font-family: Manrope;
+      font-weight: 700;
+      letter-spacing: -0.25px;
+      margin-bottom: 1em;
+      padding: 0 16px;
+      width: 280px;
+      height: 56px;
+    }
+  }
+}
+
+.emapas {
+  color: #000;
+  font-size: 14px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: -0.214px;
+}
+
+
+
+.login {
+  form {
+    input[type="password"] {
+      background-color: $white;
+      border-radius: 8px;
+      border: 1px solid #CFCFCF;
+      color: #000;
+      font-size: 14px;
+      font-family: Manrope;
+      font-weight: 700;
+      letter-spacing: -0.25px;
+      margin-bottom: 1em;
+      padding: 0 16px;
+      width: 280px;
+      height: 56px;
+      
+    }
+  }
+}
+
+.login {
+  form {
+    input[type="submit"] {
+      background: $orange;
+      border: 0;
+      width: 280px;
+      height: 56px;
+     position: relative;
+     left: 15%;
+      border-radius: 3px;
+      color: #FFF;
+      text-align: center;
+      font-size: 13px;
+      font-family: Manrope;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+    }
+  }
+}
+
+.helper-text{
+  color: #000;
+  font-size: 14px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: -0.214px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
